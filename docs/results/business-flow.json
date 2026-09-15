@@ -1,0 +1,78 @@
+{
+  "status": "CLOSED",
+  "version": 6,
+  "history": [
+    {
+      "id": 1,
+      "ticketId": 1,
+      "fromStatus": null,
+      "toStatus": "CREATED",
+      "operatorId": 2,
+      "remark": "创建工单",
+      "ticketVersion": 0,
+      "createdAt": "2026-09-10T02:56:41.230176Z"
+    },
+    {
+      "id": 2,
+      "ticketId": 1,
+      "fromStatus": "CREATED",
+      "toStatus": "ASSIGNED",
+      "operatorId": 1,
+      "remark": "演示分配",
+      "ticketVersion": 1,
+      "createdAt": "2026-09-10T02:56:41.318288Z"
+    },
+    {
+      "id": 3,
+      "ticketId": 1,
+      "fromStatus": "ASSIGNED",
+      "toStatus": "PROCESSING",
+      "operatorId": 3,
+      "remark": "流程accept",
+      "ticketVersion": 2,
+      "createdAt": "2026-09-10T02:56:41.373319Z"
+    },
+    {
+      "id": 4,
+      "ticketId": 1,
+      "fromStatus": "PROCESSING",
+      "toStatus": "PENDING",
+      "operatorId": 3,
+      "remark": "流程suspend",
+      "ticketVersion": 3,
+      "createdAt": "2026-09-10T02:56:41.408373Z"
+    },
+    {
+      "id": 5,
+      "ticketId": 1,
+      "fromStatus": "PENDING",
+      "toStatus": "PROCESSING",
+      "operatorId": 3,
+      "remark": "流程resume",
+      "ticketVersion": 4,
+      "createdAt": "2026-09-10T02:56:41.446272Z"
+    },
+    {
+      "id": 6,
+      "ticketId": 1,
+      "fromStatus": "PROCESSING",
+      "toStatus": "RESOLVED",
+      "operatorId": 3,
+      "remark": "流程resolve",
+      "ticketVersion": 5,
+      "createdAt": "2026-09-10T02:56:41.486756Z"
+    },
+    {
+      "id": 7,
+      "ticketId": 1,
+      "fromStatus": "RESOLVED",
+      "toStatus": "CLOSED",
+      "operatorId": 3,
+      "remark": "流程close",
+      "ticketVersion": 6,
+      "createdAt": "2026-09-10T02:56:41.523196Z"
+    }
+  ],
+  "completedAt": "2026-09-10T02:56:41.6598419Z",
+  "ticketId": 1
+}
