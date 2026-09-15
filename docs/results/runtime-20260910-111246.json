@@ -1,0 +1,9 @@
+{
+  "notificationsPaused": false,
+  "jarSha256": "8A1A41F7C4B89713C2481217897186B61419706ED9C8FE3FC64496172CF4453A",
+  "heap": "512m/1g",
+  "rateLimit": true,
+  "port": 8081,
+  "sla": true,
+  "startedAt": "2026-09-10T03:12:53.8139707Z"
+}
