@@ -1,0 +1,40 @@
+// 在浏览器控制台执行await runPrototypeChecks()；只操作明确标注的本地示例。
+async function runPrototypeChecks() {
+  const results=[];
+  const assert=(condition,name)=>{if(!condition)throw new Error(name);results.push(name);};
+  const navigate=async hash=>{location.hash=hash;await new Promise(resolve=>setTimeout(resolve,30));};
+  await navigate('work');
+  document.querySelector('#reset').click();
+  assert(document.querySelectorAll('.ticket-row').length===8,'初始工作台8条示例');
+  document.querySelector('#urgent-filter').click();
+  assert(document.querySelectorAll('.ticket-row').length===2,'紧急事项只显示2条');
+  document.querySelector('#reset').click();
+  const search=document.querySelector('#search');search.value='不存在的示例';search.dispatchEvent(new Event('input'));
+  assert(!document.querySelector('.empty').hidden,'搜索无结果显示恢复入口');
+  document.querySelector('#empty-reset').click();
+  await navigate('mine');
+  assert(document.querySelector('#profile-name').textContent==='林晓','用户视角显示正确身份');
+  assert(document.querySelector('.ticket-row .status').textContent==='待我补充','用户首项优先待补充');
+  await navigate('ticket/1042');
+  document.querySelector('.skip').click();
+  assert(location.hash==='#ticket/1042' && document.activeElement.id==='main','跳过导航只移动焦点，不改变页面');
+  assert(document.querySelector('#main-action').hidden && document.querySelector('#ai-panel').hidden,'用户视角不显示客服操作及AI草稿');
+  await navigate('work');await navigate('ticket/1042');
+  document.querySelector('#suggestion').click();
+  assert(document.querySelector('#reply').value.length>0 && document.querySelector('#new-messages').children.length===0,'使用AI草稿不会自动发送');
+  document.querySelector('#reply').value='<img src=x onerror=alert(1)>';
+  document.querySelector('#reply-form').requestSubmit();
+  assert(document.querySelector('#new-messages').textContent.includes('<img') && !document.querySelector('#new-messages img'),'回复以纯文本呈现');
+  document.querySelector('#main-action').click();
+  assert(document.querySelector('#detail-badge').textContent==='处理中','接单演示进入处理中');
+  document.querySelector('#main-action').click();
+  assert(document.querySelector('#action-dialog').open && document.querySelector('#detail-badge').textContent==='处理中','解决必须先确认，不提前改变状态');
+  document.querySelector('#cancel-action').click();
+  assert(document.querySelector('#detail-badge').textContent==='处理中','取消确认保留原状态');
+  await navigate('mine');document.querySelector('#new-ticket').click();
+  document.querySelector('#create-title').value='键盘布局测试';document.querySelector('#create-description').value='原型验证，不提交后端';
+  document.querySelector('#create-form').requestSubmit();await new Promise(resolve=>setTimeout(resolve,30));
+  assert(document.querySelector('#detail-title').textContent==='键盘布局测试' && !document.querySelector('#create-dialog').open,'创建示例后进入详情');
+  assert(document.documentElement.scrollWidth<=innerWidth,'页面没有横向溢出');
+  return {passed:results.length,results,note:'测试会修改内存示例；刷新恢复。原型测试不代替真实后端验收。'};
+}
