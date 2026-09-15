@@ -1,0 +1,42 @@
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1409            45              -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1303            50              -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1307            47              -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1436            72              -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1314            61              -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1327            67              -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1458            94              -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1338            85              -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1343            83              -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1476            112             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1356            103             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1365            105             -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
