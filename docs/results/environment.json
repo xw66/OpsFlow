@@ -1,0 +1,42 @@
+{
+  "gitHead": null,
+  "physicalMemoryBytes": 16331759616,
+  "osVersion": "10.0.26200",
+  "cpu": [
+    {
+      "name": "AMD Ryzen 9 7845HX with Radeon Graphics        ",
+      "logicalProcessors": 24,
+      "cores": 12
+    }
+  ],
+  "baselineJar": "F1C21F9C05DF1DE7E5E2F2BBD3E3FB1AA4C8C8C51DF9A534C6C2679EB6F96D13",
+  "k6": "v2.2.0",
+  "containers": [
+    {
+      "nanoCpus": 0,
+      "imageId": "sha256:b3b90af2a6552ae30c266fdb7d5dd55f3afb72404bb78d37fe8a23eb857fd3fb",
+      "name": "/opsflow-bench-mysql-1",
+      "memoryLimit": 0
+    },
+    {
+      "nanoCpus": 0,
+      "imageId": "sha256:ae471bdc20de180beed36e347d170ec0bdf8faa327959ea1f24692f22b05b955",
+      "name": "/opsflow-bench-redis-1",
+      "memoryLimit": 0
+    },
+    {
+      "nanoCpus": 0,
+      "imageId": "sha256:77e3df9054047a88b520d0cc46e16696d3b22022e1d580aeccd2632df6532837",
+      "name": "/opsflow-bench-kafka-1",
+      "memoryLimit": 0
+    }
+  ],
+  "os": "Microsoft Windows 11 专业版",
+  "recordedAt": "2026-09-10T02:58:40.5553655Z",
+  "docker": {
+    "ServerVersion": "29.7.2",
+    "NCPU": 24,
+    "MemTotal": 7903842304,
+    "OperatingSystem": "Docker Desktop"
+  }
+}
