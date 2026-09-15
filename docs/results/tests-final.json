@@ -1,0 +1,106 @@
+[
+  {
+    "errors": 0,
+    "tests": 8,
+    "name": "io.github.xw66.opsflow.ai.AiIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 19.867
+  },
+  {
+    "errors": 0,
+    "tests": 6,
+    "name": "io.github.xw66.opsflow.ai.AiModelServiceTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 0.913
+  },
+  {
+    "errors": 0,
+    "tests": 9,
+    "name": "io.github.xw66.opsflow.auth.AuthIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 2.335
+  },
+  {
+    "errors": 0,
+    "tests": 4,
+    "name": "io.github.xw66.opsflow.common.GlobalExceptionHandlerTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 0.052
+  },
+  {
+    "errors": 0,
+    "tests": 9,
+    "name": "io.github.xw66.opsflow.event.MessagingIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 17.277
+  },
+  {
+    "errors": 0,
+    "tests": 5,
+    "name": "io.github.xw66.opsflow.OpsFlowApplicationTests",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 2.092
+  },
+  {
+    "errors": 0,
+    "tests": 8,
+    "name": "io.github.xw66.opsflow.redis.RedisIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 7.081
+  },
+  {
+    "errors": 0,
+    "tests": 8,
+    "name": "io.github.xw66.opsflow.sla.SlaIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 5.122
+  },
+  {
+    "errors": 0,
+    "tests": 8,
+    "name": "io.github.xw66.opsflow.statistics.StatisticsIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 5.134
+  },
+  {
+    "errors": 0,
+    "tests": 6,
+    "name": "io.github.xw66.opsflow.support.SupportIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 2.186
+  },
+  {
+    "errors": 0,
+    "tests": 12,
+    "name": "io.github.xw66.opsflow.ticket.TicketIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 7.801
+  },
+  {
+    "errors": 0,
+    "tests": 78,
+    "name": "io.github.xw66.opsflow.ticket.TicketStatusTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 0.082
+  },
+  {
+    "errors": 0,
+    "tests": 8,
+    "name": "io.github.xw66.opsflow.ticket.WorkflowIntegrationTest",
+    "skipped": 0,
+    "failures": 0,
+    "seconds": 7.754
+  }
+]
