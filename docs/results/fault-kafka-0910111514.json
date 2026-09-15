@@ -1,0 +1,13 @@
+{
+  "dependencyRestartedAt": "2026-09-10T03:15:28.9891290Z",
+  "createElapsedMs": 41.0658,
+  "startedAt": "2026-09-10T03:15:14.8355531Z",
+  "observedRecoveredAt": "2026-09-10T03:15:36.1204822Z",
+  "pendingDuringFault": 1,
+  "key": "fault_kafka_0910111514",
+  "createStatus": 201,
+  "dependency": "kafka",
+  "recovered": true,
+  "ticketId": 4966,
+  "failedAttemptsObserved": 1
+}
