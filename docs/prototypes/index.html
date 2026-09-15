@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OpsFlow · 前端设计预览</title><link rel="stylesheet" href="style.css"><script src="prototype.js" defer></script></head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<aside class="sidebar">
+  <a class="brand" href="#work"><span class="brand-mark" aria-hidden="true">o<span>f</span></span><span>OpsFlow<small>让每一个问题有回应</small></span></a>
+  <div class="workspace"><span class="workspace-icon">O</span><div>企业服务中心<small>内部支持空间</small></div></div>
+  <nav aria-label="主要导航"><a href="#mine" data-nav="mine"><span aria-hidden="true">▤</span>我的工单</a><a href="#work" data-nav="work"><span aria-hidden="true">▦</span>服务工作台</a></nav>
+  <div class="sidebar-note"><span class="tiny-dot"></span>简单协作，持续跟进<p>从提出问题到妥善解决，<br>每一步都清楚可见。</p></div>
+  <div class="profile"><span class="avatar" id="profile-avatar">陈</span><div><span id="profile-name">陈敏</span><small id="persona">客户支持 · 客服</small></div><span class="profile-dot" aria-label="在线"></span></div>
+</aside>
+<div class="app">
+  <header class="topbar"><div class="breadcrumb">服务中心 <span>/</span> <strong id="breadcrumb">我的工作台</strong></div><span class="prototype-label">设计预览 · 示例数据，不连接后端</span></header>
+  <main id="main" tabindex="-1">
+    <section id="list-view">
+      <div class="page-heading"><div><div class="page-kicker">9月10日，星期四</div><h1 id="page-title">我的工作台</h1><p id="page-description">先处理需要你行动的事，让服务有序向前。</p></div><button id="new-ticket" class="primary" hidden>＋ 创建工单</button><button id="online" class="online"><span class="tiny-dot"></span>在线接单</button></div>
+      <div class="attention" id="attention"><span class="attention-icon" aria-hidden="true">!</span><div><strong>2 张工单需要优先处理</strong><span>响应时限临近或解决已超时，请优先跟进。</span></div><button id="urgent-filter" class="text-button">查看待办 <span aria-hidden="true">↗</span></button></div>
+      <section class="queue" aria-label="工单队列">
+        <div class="queue-head"><div class="tabs" role="tablist" aria-label="工单状态"></div><span class="queue-caption">以实际进展为准</span></div>
+        <div class="filters"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="查找编号或问题…" aria-label="查找示例工单"></label><label class="select-label"><select id="category" aria-label="分类筛选"><option value="">所有分类</option><option>网络与连接</option><option>办公软件</option><option>账号与权限</option><option>硬件设备</option></select></label><button id="reset" class="quiet">重置筛选</button><span class="result-count" aria-live="polite"></span></div>
+        <div class="table-header ticket-grid" aria-hidden="true"><span>工单 / 问题</span><span>状态</span><span>优先级</span><span>负责客服</span><span>当前时限</span></div>
+        <div id="tickets"></div><div class="empty" hidden><span aria-hidden="true">⌕</span><h2>没有符合条件的工单</h2><p>试试其他关键词，或清除筛选条件。</p><button class="quiet" id="empty-reset">清除筛选</button></div>
+        <footer class="list-footer"><span>已显示全部示例工单</span><span>所有时限均为演示文本</span></footer>
+      </section>
+      <div class="below-note"><span class="note-line"></span><span>工单有进展时，通知会带你回到这里。</span></div>
+    </section>
+    <section id="detail-view" hidden>
+      <a id="back-link" class="back" href="#work">‹ 返回工作台</a>
+      <div class="detail-heading"><div><div class="detail-meta"><span id="ticket-number">#1042</span><span id="detail-badge" class="status"></span></div><h1 id="detail-title"></h1><p>由 林晓 提交 · 今天 09:42</p></div><button class="primary" id="main-action">开始处理</button></div>
+      <div class="detail-layout"><div class="conversation-column">
+        <section class="issue"><div class="section-heading"><h2>问题描述</h2><span>用户提交</span></div><p id="issue-description">今天早上连接公司 VPN 时一直提示“连接超时”，重启电脑后仍无法连接。现在无法访问内部项目文档，希望协助排查。</p><div class="file-chip"><span class="file-icon">PNG</span><div>连接错误截图.png<small>248 KB · 示例附件</small></div><span>↙</span></div></section>
+        <section class="conversation"><div class="section-heading"><h2>交流记录</h2><span>公开回复</span></div><div class="system-event"><span></span>工单已分配给 陈敏<time>09:45</time></div><article class="message"><span class="avatar user-avatar">林</span><div><div class="message-author">林晓 <span>提交人</span><time>09:47</time></div><p>补充一下：家里的网络可以正常访问其他网站，同事目前也遇到了相同的问题。</p></div></article><div id="new-messages"></div></section>
+        <form id="reply-form" class="composer"><div class="composer-top"><label for="reply">回复用户</label><span>对提交人可见</span></div><textarea id="reply" rows="4" required maxlength="5000" placeholder="写下处理进展，或说明需要补充的信息…"></textarea><div class="composer-bottom"><span>发送前，请确认没有内部敏感信息。</span><button type="submit" class="primary">发送回复</button></div></form>
+      </div><aside class="ticket-properties" aria-label="工单信息"><section><h2>处理信息</h2><dl><div><dt>负责客服</dt><dd><span class="avatar mini">陈</span>陈敏</dd></div><div><dt>客服组</dt><dd>IT 服务支持</dd></div><div><dt>工单分类</dt><dd id="detail-category">网络与连接</dd></div><div><dt>优先级</dt><dd id="detail-priority">高</dd></div></dl></section><section class="sla-section"><div class="section-heading"><h2>服务时限</h2><span>24 × 7</span></div><div class="sla-block"><span>首次响应</span><strong id="detail-sla">剩余 18 分钟</strong><small>今天 10:12 截止 · 演示时间</small></div><div class="sla-secondary"><span>解决时限</span><strong>今天 13:42</strong></div><p class="property-note">等待用户期间，服务时限仍持续计时。</p></section><details id="ai-panel"><summary><span aria-hidden="true">✧</span> AI 辅助 <small>建议</small></summary><p>草稿仅供参考，确认发送后用户才会看到。</p><button class="quiet full" id="suggestion">使用示例回复草稿</button></details><p class="prototype-note">本页为交互原型。状态修改与回复仅保留在当前页面，刷新即还原。</p></aside></div>
+    </section>
+  </main>
+  <footer class="app-footer"><span>OpsFlow · 智能工单与 SLA 管理平台</span><span>清晰的进展，可靠的协作。</span></footer>
+</div>
+<dialog id="create-dialog"><form id="create-form"><div class="dialog-heading"><div><span class="page-kicker">向服务团队提出问题</span><h2>创建工单</h2></div><button type="button" class="icon-button" id="close-dialog" aria-label="关闭">×</button></div><p class="dialog-note">设计预览：提交后仅添加本地示例，不产生真实工单。</p><label>问题标题<input id="create-title" required maxlength="200" placeholder="例如：无法连接公司 VPN"></label><label>问题描述<textarea id="create-description" required rows="4" placeholder="发生了什么？你已尝试过哪些方法？"></textarea></label><div class="form-columns"><label>分类<select id="create-category"><option>网络与连接</option><option>办公软件</option><option>账号与权限</option><option>硬件设备</option></select></label><label>优先级<select id="create-priority"><option>普通</option><option>高</option><option>紧急</option><option>低</option></select></label></div><div class="dialog-footer"><button type="button" class="quiet" id="cancel-dialog">取消</button><button type="submit" class="primary">创建示例工单</button></div></form></dialog>
+<dialog id="action-dialog"><form id="action-form"><div class="dialog-heading"><h2 id="action-title">标记已解决</h2><button type="button" class="icon-button" id="close-action" aria-label="关闭确认">×</button></div><p id="action-description" class="dialog-note"></p><label>操作说明<textarea id="action-reason" required maxlength="500" rows="3" placeholder="简要说明处理结果…"></textarea></label><div class="dialog-footer"><button type="button" class="quiet" id="cancel-action">返回</button><button type="submit" class="primary" id="confirm-action">确认</button></div></form></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div><script src="checks.js"></script>
+</body></html>
