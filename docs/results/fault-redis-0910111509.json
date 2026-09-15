@@ -1,0 +1,15 @@
+{
+  "ticketId": 4965,
+  "dependency": "redis",
+  "loginStatus": 503,
+  "recovered": true,
+  "key": "fault_redis_0910111509",
+  "createStatus": 201,
+  "observedRecoveredAt": "2026-09-10T03:15:14.7654210Z",
+  "detailStatus": 200,
+  "startedAt": "2026-09-10T03:15:09.5068677Z",
+  "replayStatus": 201,
+  "dependencyRestartedAt": "2026-09-10T03:15:14.4321579Z",
+  "restoredLoginStatus": 200,
+  "createElapsedMs": 1548.5156
+}
