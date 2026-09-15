@@ -1,0 +1,83 @@
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
+
+Consumer group 'opsflow-notifications' has no active members.
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             -               -               -
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             -               -               -
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             -               -               -
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1253            1371            118             consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1260            1380            120             consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1364            1486            122             consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
+
+GROUP                 TOPIC                 PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                           HOST            CLIENT-ID
+opsflow-notifications opsflow.ticket-events 1          1371            1371            0               consumer-opsflow-notifications-2-a131cbb4-bc30-4270-9d48-dd8a498d3702 /172.23.0.1     consumer-opsflow-notifications-2
+opsflow-notifications opsflow.ticket-events 2          1380            1380            0               consumer-opsflow-notifications-3-99d0e3a6-a0d8-493d-9d36-06313d71d4f6 /172.23.0.1     consumer-opsflow-notifications-3
+opsflow-notifications opsflow.ticket-events 0          1486            1486            0               consumer-opsflow-notifications-1-f146a4e7-869a-4a54-99bf-d06b04f85bc6 /172.23.0.1     consumer-opsflow-notifications-1
