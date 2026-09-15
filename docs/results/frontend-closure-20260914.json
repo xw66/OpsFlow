@@ -1,0 +1,77 @@
+{
+  "recordedAt": "2026-09-14T14:09:56.5348412Z",
+  "backend": {
+    "jarSha256": "A5A4EEC91B7A4CF584D2095C75B394604959F8A2DB5F00856C7653BB550D413F",
+    "failures": 0,
+    "log": "target/frontend-closure-full-20260914.log",
+    "skipped": 0,
+    "tests": 177,
+    "errors": 0
+  },
+  "frontend": {
+    "log": "target/frontend-closure-tests-20260914.log",
+    "build": "passed",
+    "failures": 0,
+    "typecheck": "passed",
+    "tests": 30
+  },
+  "browser": {
+    "engine": "Chromium",
+    "stats": {
+      "startTime": "2026-09-14T14:09:32.597Z",
+      "duration": 8772.076000000001,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "cases": [
+      {
+        "title": "四角色真实工单闭环：创建编辑附件、接单交流、解决关闭和重开",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 4456
+          }
+        ],
+        "status": "expected"
+      },
+      {
+        "title": "两个真实浏览器会话竞争接单，仅一次成功且冲突说明保留",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 969
+          }
+        ],
+        "status": "expected"
+      },
+      {
+        "title": "手机注册、创建和取消工单，详情保留服务时限",
+        "results": [
+          {
+            "status": "passed",
+            "duration": 960
+          }
+        ],
+        "status": "expected"
+      }
+    ],
+    "log": "target/e2e-browser-final-20260914.log",
+    "runner": "Playwright 1.63.0"
+  },
+  "environment": {
+    "apiPort": 8082,
+    "externalAi": false,
+    "automaticAssignment": false,
+    "rateLimit": false,
+    "webPort": 5174,
+    "composeProject": "opsflow-e2e",
+    "mocksUsed": false
+  },
+  "limitations": [
+    "仅本模块3个浏览器场景，不代表所有页面完成",
+    "未进行本轮性能复测",
+    "未验证外部模型效果"
+  ]
+}
