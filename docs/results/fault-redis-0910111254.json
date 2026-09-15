@@ -1,0 +1,14 @@
+{
+  "createElapsedMs": 1628.6821,
+  "key": "fault_redis_0910111254",
+  "observedRecoveredAt": "2026-09-10T03:13:31.4309176Z",
+  "createStatus": 201,
+  "recovered": true,
+  "startedAt": "2026-09-10T03:12:54.2835131Z",
+  "detailStatus": 200,
+  "ticketId": 4963,
+  "dependencyRestartedAt": "2026-09-10T03:12:59.3374118Z",
+  "loginStatus": 503,
+  "dependency": "redis",
+  "replayStatus": 201
+}
