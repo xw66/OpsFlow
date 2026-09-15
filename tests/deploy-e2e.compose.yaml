@@ -1,0 +1,4 @@
+services:
+  app:
+    environment:
+      RATE_LIMIT_ENABLED: "false"
