@@ -1,0 +1,6 @@
+{"finishedAt":"2026-09-10T03:10:42.8984299Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":200},"startedAt":"2026-09-10T03:10:40.7841433Z","cliExit":0,"kafkaLag":142.0}
+{"finishedAt":"2026-09-10T03:10:46.9181123Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":140},"startedAt":"2026-09-10T03:10:44.9110899Z","cliExit":0,"kafkaLag":200.0}
+{"finishedAt":"2026-09-10T03:10:51.0592271Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":80},"startedAt":"2026-09-10T03:10:48.9260859Z","cliExit":0,"kafkaLag":262.0}
+{"finishedAt":"2026-09-10T03:10:55.0287415Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":20},"startedAt":"2026-09-10T03:10:53.0682797Z","cliExit":0,"kafkaLag":320.0}
+{"finishedAt":"2026-09-10T03:10:59.0150868Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":0},"startedAt":"2026-09-10T03:10:57.0341955Z","cliExit":0,"kafkaLag":360.0}
+{"finishedAt":"2026-09-10T03:11:03.1478064Z","facts":{"consumed":3877,"slaEvents":60,"openFailures":0,"notifications":3879,"pendingOutbox":0},"startedAt":"2026-09-10T03:11:01.0202882Z","cliExit":0,"kafkaLag":360.0}
