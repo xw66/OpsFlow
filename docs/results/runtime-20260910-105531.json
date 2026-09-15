@@ -1,0 +1,8 @@
+{
+  "sla": false,
+  "heap": "512m/1g",
+  "port": 8081,
+  "rateLimit": false,
+  "jarSha256": "F1C21F9C05DF1DE7E5E2F2BBD3E3FB1AA4C8C8C51DF9A534C6C2679EB6F96D13",
+  "startedAt": "2026-09-10T02:55:41.9280940Z"
+}
