@@ -1,0 +1,4 @@
+services:
+  app:
+    volumes:
+      - ./target/OpsFlow-0.0.1-SNAPSHOT.jar:/app/app.jar:ro
