@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-15",
+  "environment": "本地单机 Docker 环境",
+  "regression": {
+    "backend": {
+      "passed": 181,
+      "source": "target/closing-backend.log",
+      "logSha256": "b05ad63e99a98f7d5a2d41a863c3ab88685ceda51c233d5ef3ca58c952a1fe52"
+    },
+    "frontend": {
+      "passed": 66,
+      "source": "target/closing-frontend.log",
+      "logSha256": "b516e8fd640ed1ee0b4a7ae6efe6e407ac6ff3a7f0d1c1e3c45b10ab824ca737"
+    },
+    "browser": {
+      "passed": 9,
+      "source": "target/closing-browser-final.log",
+      "logSha256": "e15aa5186c35844abc7dc19b23e0412d1826cca4983e4bb4d5b0711f370bff08"
+    }
+  },
+  "benchmarks": [
+    {
+      "name": "工单创建",
+      "source": "target/benchmark/create-create1509.json",
+      "sourceSha256": "71653541fdbe031dcd4457ad146edce4daa60317ae8dcff2ccd41f2b2d4f1841",
+      "virtualUsers": 10,
+      "durationSeconds": 30,
+      "requests": 2091,
+      "requestsPerSecond": 69.40680548632166,
+      "httpP95Milliseconds": 189.574256,
+      "businessSuccess": 2091,
+      "checks": {
+        "rate": 1,
+        "passes": 2091,
+        "fails": 0
+      }
+    },
+    {
+      "name": "工单列表",
+      "source": "target/benchmark/list-list1509.json",
+      "sourceSha256": "0c43ee985c0be827200b39225022fc0a8139ed74d705b7c55f593d641b6def91",
+      "virtualUsers": 10,
+      "durationSeconds": 30,
+      "requests": 14365,
+      "requestsPerSecond": 478.61970587877755,
+      "httpP95Milliseconds": 26.538017199999995,
+      "checks": {
+        "fails": 0,
+        "rate": 1,
+        "passes": 14365
+      }
+    },
+    {
+      "name": "并发接单",
+      "source": "target/benchmark/race-race1509.json",
+      "sourceSha256": "e3f529dabbc98a6fa7e8f632bc5d6b7180d4712c00423c69f8ca0a38f665d587",
+      "virtualUsers": 32,
+      "iterationsPerUser": 1,
+      "requests": 32,
+      "requestsPerSecond": 256.92564967524476,
+      "httpP95Milliseconds": 96.6037632,
+      "businessSuccess": 1,
+      "expectedConflicts": 31,
+      "checks": {
+        "rate": 1,
+        "passes": 32,
+        "fails": 0
+      }
+    }
+  ],
+  "demonstration": {
+    "capturedAt": "2026-09-15T12:03:55.586Z",
+    "screenshotCount": 22,
+    "pageErrors": [],
+    "source": "真实业务接口与真实模型调用",
+    "demonstrationData": true
+  }
+}
